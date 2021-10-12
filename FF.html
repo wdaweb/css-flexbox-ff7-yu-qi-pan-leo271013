@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      height: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("./pic/bg-full.jpg");
+      background-size: cover;
+    }
+
+    .fa {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      height: 65%;
+      width: 80%;
+      border: 2px solid rgb(255, 255, 255);
+      display: flex;
+    }
+
+    .cloud {
+      height: 50%;
+      display: flex;
+      background-color: rgb(170, 170, 170);
+    }
+
+    .tifa {
+      height: 50%;
+      display: flex;
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+
+    .right {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./pic/main.jpg) center;
+      color: #FFF;
+      text-align: center;
+      box-sizing: border-box;
+      width: 50%;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding: 10%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fa">
+    <div class="container">
+      <div class="right">
+        <div>
+          <img src="./pic/ps4-ff7.png" width="40%">
+          <h1>AVAILABLE NOW</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum quis sunt? Nulla incidunt quae rem
+            eius quisquam ipsum! Repudiandae quos eum, neque nulla consectetur minus ex? Aperiam, sapiente ducimus!</p>
+        </div>
+      </div>
+      <div style="width: 50%;">
+        <div class="cloud">
+          <div style="align-self: center;box-sizing: border-box;padding-left: 7%;">
+            <h1>Cloud</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, itaque corporis. Perspiciatis
+              perferendis omnis velit doloribus aperiam numquam corporis dolorem mollitia ut. Ullam, recusandae. Ex
+              nulla sequi iusto facere porro.</p>
+          </div>
+          <img src="./pic/cloud.png" width="42%" style="align-self: flex-end;">
+        </div>
+        <div class="tifa">
+          <img src="./pic/tifa.png" width="42%" style="align-self: flex-end;padding-left:3%;">
+          <div style="align-self: center;box-sizing: border-box;">
+            <h1>Tifa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, itaque corporis. Perspiciatis
+              perferendis omnis velit doloribus aperiam numquam corporis dolorem mollitia ut. Ullam, recusandae. Ex
+              nulla sequi iusto facere porro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
